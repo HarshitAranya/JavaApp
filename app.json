@@ -1,7 +1,7 @@
 {
   "name": "wffweb",
   "description": "wffweb demo project",
-  "website": "https://github.com/webfirmframework/wffweb-demo-deployment",
+  "website": "https://github.com/HarshitAranya/JavaApp",
   "success_url": "/index.html",
   "keywords": ["java", "webfirmframework", "wffweb", "demo"]
 }
