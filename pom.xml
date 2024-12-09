@@ -113,6 +113,11 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.10.1</version>
 				<configuration>
+			                <archive>
+			                    <manifestEntries>
+			                        <Main-Class>com.yourpackage.MainClass</Main-Class>
+			                    </manifestEntries>
+			                </archive>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
 				</configuration>
