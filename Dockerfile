@@ -18,7 +18,7 @@ FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app
 
 # Copy the application JAR file from the builder stage
-COPY --from=builder /app/target/*.jar app.jar
+COPY --from=builder /app/*.jar app.jar
 
 # Expose the application's port (e.g., 8080)
 EXPOSE 8080
